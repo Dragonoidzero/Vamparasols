@@ -1,6 +1,6 @@
-package com.jvsrivas.vampirella.proxy;
+package com.jvsrivas.vamparasol.proxy;
 
-import com.jvsrivas.vampirella.ModItems;
+import com.jvsrivas.vamparasol.ModItems;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

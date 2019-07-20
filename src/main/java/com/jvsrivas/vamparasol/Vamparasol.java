@@ -1,7 +1,6 @@
-package com.jvsrivas.vampirella;
+package com.jvsrivas.vamparasol;
 
 import de.teamlapen.vampirism.api.entity.player.vampire.IVampirePlayer;
-import de.teamlapen.vampirism.api.entity.vampire.IVampire;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -16,7 +15,7 @@ import net.minecraftforge.common.capabilities.CapabilityInject;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class VampUmbrella extends Item {
+public class Vamparasol extends Item {
     @CapabilityInject(IVampirePlayer.class)
     public static final Capability<IVampirePlayer> CAP = null;
 
@@ -24,10 +23,10 @@ public class VampUmbrella extends Item {
         return player.getCapability(CAP, null);
     }
 
-    public VampUmbrella() {
-        setRegistryName("vampirella");
-        setUnlocalizedName(Vampirella.MODID + ".vampirella");
-        setCreativeTab(Vampirella.creativeTab);
+    public Vamparasol() {
+        setRegistryName("vamparasol");
+        setUnlocalizedName(Vamparasols.MODID + ".vamparasol");
+        setCreativeTab(Vamparasols.creativeTab);
         setMaxStackSize(1);
         setMaxDamage(0);
     }

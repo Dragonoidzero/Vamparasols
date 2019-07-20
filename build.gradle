@@ -47,8 +47,8 @@ repositories {
 }
 
 version = "0.0.1"
-group = "com.jvsrivas.vampirella"
-archivesBaseName = "vampirella"
+group = "com.jvsrivas.vamparasol"
+archivesBaseName = "vamparasol"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
