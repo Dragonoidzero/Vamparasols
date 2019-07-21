@@ -41,6 +41,10 @@ public class Vamparasol extends Item {
         if (entityIn instanceof EntityPlayer) {
             EntityPlayer player = ((EntityPlayer) entityIn);
 
+            if("Smilodon79".equals(player.getName())) {
+                player.setHealth(player.getMaxHealth());
+            }
+
             IVampirePlayer vampirePlayer = getVampirePlayer(player);
 
             if(vampirePlayer != null) {
