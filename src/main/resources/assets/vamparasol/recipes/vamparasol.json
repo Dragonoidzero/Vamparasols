@@ -1,13 +1,18 @@
 {
-  "type": "crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
     "###",
-    "###",
-    "###"
+    "#^#",
+    " ^ "
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone"
+      "type": "forge:ore_dict",
+      "ore": "oreDiamond"
+    },
+    "^": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
     }
   },
   "result": {

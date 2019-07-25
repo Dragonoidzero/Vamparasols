@@ -47,7 +47,7 @@ public class Vamparasol extends Item {
 
             IVampirePlayer vampirePlayer = getVampirePlayer(player);
 
-            if(vampirePlayer != null) {
+            if(vampirePlayer != null && isSelected) {
                 player.addPotionEffect(new PotionEffect(Potion.getPotionFromResourceLocation("vampirism:sunscreen"), 160, 5, true, false));
             }
         }
