@@ -28,10 +28,6 @@ repositories {
     maven { // IntWheel
         url "http://maven.k-4u.nl"
     }
-//    maven { // TOP
-//        name 'tterrag maven'
-//        url "http://maven.tterrag.com/"
-//    }
     maven {
         name = "CoFH Maven"
         url = "http://maven.covers1624.net"
@@ -41,12 +37,18 @@ repositories {
         url = "https://maxanier.de/maven2"
     }
 
+    maven {
+        //Baubles
+        name 'thiakil'
+        url 'https://maven.thiakil.com'
+    }
+
     flatDir {
         dirs 'lib'
     }
 }
 
-version = "0.0.1"
+version = "0.0.2"
 group = "com.jvsrivas.vamparasol"
 archivesBaseName = "vamparasol"
 
@@ -66,8 +68,9 @@ dependencies {
     deobfCompile "cofh:RedstoneFlux:1.12-2.0.0.1:universal"
     deobfCompile "mcjty.theoneprobe:theoneprobe-1.12-1.4.28"
     deobfCompile "com.github.mcjty:intwheel:1.12-1.2.7"
-
+    deobfCompile "com.azanor.baubles:Baubles:1.12-1.5.2"
     deobfCompile "de.teamlapen.vampirism:Vampirism:1.12.2-1.5.0:api"
+
     runtime "de.teamlapen.vampirism:Vampirism:1.12.2-1.5.0"
 }
 

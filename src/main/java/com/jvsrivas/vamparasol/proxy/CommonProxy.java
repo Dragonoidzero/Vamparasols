@@ -1,6 +1,7 @@
 package com.jvsrivas.vamparasol.proxy;
 
-import com.jvsrivas.vamparasol.Vamparasol;
+import com.jvsrivas.vamparasol.items.VamCharm;
+import com.jvsrivas.vamparasol.items.Vamparasol;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -29,5 +30,6 @@ public class CommonProxy {
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new Vamparasol());
+        event.getRegistry().register(new VamCharm());
     }
 }

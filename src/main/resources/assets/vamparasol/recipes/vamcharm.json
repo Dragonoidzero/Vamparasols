@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "###",
+    "#^#",
+    " ^ "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+      "ore": "oreDiamond"
+    },
+    "^": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result": {
+    "item": "vamparasol:vamcharm"
+  }
+}
