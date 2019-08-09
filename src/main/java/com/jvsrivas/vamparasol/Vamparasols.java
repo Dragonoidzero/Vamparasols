@@ -17,7 +17,7 @@ public class Vamparasols {
 
     public static final String MODID = "vamparasol";
     public static final String MODNAME = "Vampiric Baubles";
-    public static final String MODVERSION = "0.0.1";
+    public static final String MODVERSION = "0.0.4";
 
     public static boolean isVampirismLoaded;
 
